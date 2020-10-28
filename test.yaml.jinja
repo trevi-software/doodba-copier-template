@@ -20,7 +20,9 @@ services:
       SMTP_SERVER: smtplocal
     restart: unless-stopped
     depends_on:
+      {% if postgres_version -%}
       - db
+      {%- endif %}
       - smtp
     networks:
       default:
