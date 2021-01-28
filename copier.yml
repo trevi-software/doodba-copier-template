@@ -154,7 +154,7 @@ project_author:
     Tell me who you are.
 
     If private modules do not include this author, pylint will warn you.
-  default: Tecnativa
+  default: TREVI Software
 
 project_name:
   type: str
@@ -173,7 +173,7 @@ project_license:
     find other propietary licenses we support in this scaffolding. Make a wise choice!
 
     So, what's your project's license?
-  default: BSL-1.0
+  default: AGPL-3.0-or-later
   choices:
     No license: null
     Apache License 2.0: Apache-2.0
