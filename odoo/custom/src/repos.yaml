@@ -9,6 +9,7 @@
     ocb: https://github.com/OCA/OCB.git
     odoo: https://github.com/odoo/odoo.git
     openupgrade: https://github.com/OCA/OpenUpgrade.git
+    trevi: https://github.com/trevi-software/OCB.git
   target: ocb $ODOO_VERSION
   merges:
     - ocb $ODOO_VERSION
