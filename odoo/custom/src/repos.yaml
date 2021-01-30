@@ -36,3 +36,13 @@ odoo-profiles:
   merges:
     - origin $ODOO_VERSION
 
+akretion-usability:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/akretion/odoo-usability.git
+    trevi: https://github.com/trevi-software/odoo-usability.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/4/head
