@@ -16,6 +16,17 @@
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
 
+l10n-ethiopia:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/l10n-ethiopia.git
+    trevi: https://github.com/trevi-software/l10n-ethiopia
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/2/head
+
 odoo-profiles:
   defaults:
     depth: $DEPTH_MERGE
