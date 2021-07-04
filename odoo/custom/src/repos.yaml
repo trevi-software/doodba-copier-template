@@ -37,7 +37,6 @@ odoo-profiles:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/2/head
 
 akretion-usability:
   defaults:
