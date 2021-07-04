@@ -13,6 +13,8 @@
   target: ocb $ODOO_VERSION
   merges:
     - ocb $ODOO_VERSION
+    - trevi refs/pull/13/head
+    - trevi refs/pull/14/head
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
 
@@ -46,3 +48,59 @@ akretion-usability:
   merges:
     - origin $ODOO_VERSION
     - trevi refs/pull/4/head
+
+server-backend:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/server-backend.git
+    trevi: https://github.com/trevi-software/server-backend.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/2/head
+
+server-brand:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/server-brand.git
+    trevi: https://github.com/trevi-software/server-brand.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/1/head
+
+server-tools:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/server-tools.git
+    trevi: https://github.com/trevi-software/server-tools.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/4/head
+
+server-ux:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/server-ux.git
+    trevi: https://github.com/trevi-software/server-ux.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/2/head
+
+web:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/web.git
+    trevi: https://github.com/trevi-software/web.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - trevi refs/pull/3/head
+
