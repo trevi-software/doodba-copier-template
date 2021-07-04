@@ -37,6 +37,7 @@ odoo-profiles:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/2/head
 
 akretion-usability:
   defaults:
@@ -48,6 +49,25 @@ akretion-usability:
   merges:
     - origin $ODOO_VERSION
     - trevi refs/pull/4/head
+
+crm:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/crm.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
+partner-contact:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/partner-contact.git
+    trevi: https://github.com/trevi-software/partner-contact.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 
 server-backend:
   defaults:

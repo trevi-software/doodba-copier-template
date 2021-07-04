@@ -1,8 +1,22 @@
 akretion-usability:
   - base_usability
+  - base_partner_one2many_phone
   - partner_tree_default_base
+  - partner_tree_default_contacts
+  - product_usability
+  - sale_usability
+crm:
+  - crm_claim
+  - crm_lead_code
+  - crm_phonecall
 l10n-ethiopia:
   - l10n_et_toponym
+partner-contact:
+  - partner_address_version
+  - partner_vat_unique
+odoo-profiles:
+  - profile_base
+  - profile_sale_crm
 server-backend:
   - base_user_role
 server-brand:
@@ -10,6 +24,7 @@ server-brand:
   - remove_odoo_enterprise
 server-tools:
   - auditlog
+  - base_view_inheritance_extension
   - module_change_auto_install
   - slow_statement_logger
 server-ux:
@@ -29,6 +44,7 @@ web:
   - web_drop_target
   - web_environment_ribbon
   - web_group_expand
+  - web_listview_range_select
   - web_refresher
   - web_responsive
 
