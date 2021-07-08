@@ -5,10 +5,30 @@ akretion-usability:
   - partner_tree_default_contacts
   - product_usability
   - sale_usability
+bank-payment:
+  - account_payment_mode
+  - account_payment_partner
+contract:
+  - agreement
+  - agreement_sale
+  - contract
+  - contract_payment_mode
+  - contract_sale
 crm:
   - crm_claim
   - crm_lead_code
   - crm_phonecall
+field-service:
+  - base_territory
+  - fieldservice
+  - fieldservice_account
+  - fieldservice_project
+  - fieldservice_skill
+  - fieldservice_timeline
+helpdesk:
+  - helpdesk_mgmt
+  - helpdesk_mgmt_project
+  - helpdesk_type
 l10n-ethiopia:
   - l10n_et_toponym
 partner-contact:
@@ -17,6 +37,17 @@ partner-contact:
 odoo-profiles:
   - profile_base
   - profile_sale_crm
+  - profile_service_helpdesk
+osi-addons:
+  - agreement_helpdesk
+  - fieldservice_account_analytic
+  - fieldservice_agreement
+  - fieldservice_agreement_helpdesk
+  - helpdesk_fieldservice
+project:
+  - project_task_dependency
+  - project_task_material
+  - project_template
 server-backend:
   - base_user_role
 server-brand:
@@ -47,4 +78,7 @@ web:
   - web_listview_range_select
   - web_refresher
   - web_responsive
+  - web_timeline
+website:
+  - website_odoo_debranding
 
