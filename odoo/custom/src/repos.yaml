@@ -55,9 +55,19 @@ field-service:
     depth: $DEPTH_MERGE
   remotes:
     origin: https://github.com/OCA/field-service.git
+    trevi: https://github.com/trevi-software/field-service.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin refs/pull/781/head
+    - origin refs/pull/761/head
+    - origin refs/pull/733/head
+    - origin refs/pull/730/head
+    - origin refs/pull/697/head
+    - origin refs/pull/700/head
+    - origin refs/pull/689/head
+    - origin refs/pull/688/head
+    - trevi refs/pull/1/head
 
 helpdesk:
   defaults:
