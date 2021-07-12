@@ -50,33 +50,6 @@ akretion-usability:
     - origin $ODOO_VERSION
     - trevi refs/pull/4/head
 
-bank-payment:
-  defaults:
-    depth: $DEPTH_MERGE
-  remotes:
-    origin: https://github.com/OCA/bank-payment.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
-
-contract:
-  defaults:
-    depth: $DEPTH_MERGE
-  remotes:
-    origin: https://github.com/OCA/contract.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
-
-crm:
-  defaults:
-    depth: $DEPTH_MERGE
-  remotes:
-    origin: https://github.com/OCA/crm.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
-
 field-service:
   defaults:
     depth: $DEPTH_MERGE
@@ -112,15 +85,6 @@ partner-contact:
   remotes:
     origin: https://github.com/OCA/partner-contact.git
     trevi: https://github.com/trevi-software/partner-contact.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
-
-project:
-  defaults:
-    depth: $DEPTH_MERGE
-  remotes:
-    origin: https://github.com/OCA/project.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -179,13 +143,4 @@ web:
   merges:
     - origin $ODOO_VERSION
     - trevi refs/pull/3/head
-
-website:
-  defaults:
-    depth: $DEPTH_MERGE
-  remotes:
-    origin: https://github.com/OCA/website.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
 
