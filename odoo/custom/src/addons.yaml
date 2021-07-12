@@ -22,8 +22,20 @@ field-service:
   - base_territory
   - fieldservice
   - fieldservice_account
+  - fieldservice_account_analytic
+  - fieldservice_activity
+  - fieldservice_agreement
+  - fieldservice_delivery
+  - fieldservice_isp_flow
+  - fieldservice_maintenance
   - fieldservice_project
+  - fieldservice_purchase
+  - fieldservice_recurring
+  - fieldservice_repair
+  - fieldservice_sale
   - fieldservice_skill
+  - fieldservice_stage
+  - fieldservice_stock
   - fieldservice_timeline
 helpdesk:
   - helpdesk_mgmt
@@ -40,7 +52,6 @@ odoo-profiles:
   - profile_service_helpdesk
 osi-addons:
   - agreement_helpdesk
-  - fieldservice_account_analytic
   - fieldservice_agreement
   - fieldservice_agreement_helpdesk
   - helpdesk_fieldservice
