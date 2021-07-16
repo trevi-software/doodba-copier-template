@@ -10,7 +10,9 @@ bank-payment:
   - account_payment_partner
 contract:
   - agreement
+  - agreement_legal
   - agreement_sale
+  - agreement_serviceprofile
   - contract
   - contract_payment_mode
   - contract_sale
@@ -25,24 +27,20 @@ field-service:
   - fieldservice_account_analytic
   - fieldservice_activity
   - fieldservice_agreement
-  - fieldservice_delivery
   - fieldservice_isp_flow
   - fieldservice_maintenance
   - fieldservice_project
   - fieldservice_purchase
   - fieldservice_recurring
-  - fieldservice_repair
   - fieldservice_sale
   - fieldservice_skill
-  - fieldservice_stage
-  - fieldservice_stock
+  - fieldservice_stage_server_action
+  - fieldservice_stage_validation
   - fieldservice_timeline
 helpdesk:
   - helpdesk_mgmt
   - helpdesk_mgmt_project
   - helpdesk_type
-l10n-ethiopia:
-  - l10n_et_toponym
 partner-contact:
   - partner_address_version
   - partner_vat_unique
