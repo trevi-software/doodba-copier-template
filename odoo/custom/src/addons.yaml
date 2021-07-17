@@ -20,6 +20,11 @@ crm:
   - crm_claim
   - crm_lead_code
   - crm_phonecall
+hr:
+  - hr_contract_reference
+  - hr_employee_id
+  - hr_medical_examination
+  - hr_personal_equipment
 field-service:
   - base_territory
   - fieldservice
