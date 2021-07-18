@@ -83,6 +83,8 @@ server-ux:
   - date_range
   - mass_editing
   - multi_step_wizard
+social:
+  - mail_tracking
 web:
   - web_advanced_search
   - web_dialog_size
