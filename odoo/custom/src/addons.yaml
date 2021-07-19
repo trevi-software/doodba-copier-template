@@ -1,3 +1,5 @@
+account-invoicing:
+  - account_portal_hide_invoice
 akretion-usability:
   - base_usability
   - base_partner_one2many_phone
@@ -20,6 +22,11 @@ crm:
   - crm_claim
   - crm_lead_code
   - crm_phonecall
+hr:
+  - hr_contract_reference
+  - hr_employee_id
+  - hr_medical_examination
+  - hr_personal_equipment
 field-service:
   - base_territory
   - fieldservice
@@ -78,6 +85,12 @@ server-ux:
   - date_range
   - mass_editing
   - multi_step_wizard
+social:
+  - mail_tracking
+trevi-misc:
+  - project_portal_hide
+  - purchase_portal_hide
+  - sale_portal_hide
 web:
   - web_advanced_search
   - web_dialog_size

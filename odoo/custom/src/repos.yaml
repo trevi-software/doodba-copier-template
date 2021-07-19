@@ -37,7 +37,16 @@ odoo-profiles:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/3/head
+    - origin refs/pull/4/head
+
+trevi-misc:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/trevi-software/trevi-misc.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 
 akretion-usability:
   defaults:
@@ -49,6 +58,18 @@ akretion-usability:
   merges:
     - origin $ODOO_VERSION
     - trevi refs/pull/4/head
+
+hr:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/hr.git
+    trevi: https://github.com/trevi-software/hr.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - origin refs/pull/1004/head
+    - origin refs/pull/1009/head
 
 field-service:
   defaults:
