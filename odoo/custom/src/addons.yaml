@@ -1,3 +1,5 @@
+account-invoicing:
+  - account_portal_hide_invoice
 akretion-usability:
   - base_usability
   - base_partner_one2many_phone
@@ -85,6 +87,10 @@ server-ux:
   - multi_step_wizard
 social:
   - mail_tracking
+trevi-misc:
+  - project_portal_hide
+  - purchase_portal_hide
+  - sale_portal_hide
 web:
   - web_advanced_search
   - web_dialog_size

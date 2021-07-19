@@ -39,6 +39,15 @@ odoo-profiles:
     - origin $ODOO_VERSION
     - origin refs/pull/4/head
 
+trevi-misc:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/trevi-software/trevi-misc.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
 akretion-usability:
   defaults:
     depth: $DEPTH_MERGE
