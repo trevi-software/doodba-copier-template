@@ -26,7 +26,6 @@ hr:
   - hr_contract_reference
   - hr_employee_id
   - hr_medical_examination
-  - hr_personal_equipment
 field-service:
   - base_territory
   - fieldservice
@@ -95,7 +94,6 @@ web:
   - web_advanced_search
   - web_dialog_size
   - web_drop_target
-  - web_environment_ribbon
   - web_group_expand
   - web_listview_range_select
   - web_refresher
@@ -103,4 +101,12 @@ web:
   - web_timeline
 website:
   - website_odoo_debranding
+---
+# Enable demo ribbon only for devel and test environments
+ONLY:
+  PGDATABASE: # This environment variable must exist and be in the list
+    - devel
+    - test
+web:
+  - web_environment_ribbon
 
