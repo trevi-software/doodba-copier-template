@@ -59,6 +59,16 @@ akretion-usability:
     - origin $ODOO_VERSION
     - trevi refs/pull/4/head
 
+account-invoicing:
+  defaults:
+    depth: $DEPTH_MERGE
+  remotes:
+    origin: https://github.com/OCA/account-invoicing.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+    - origin refs/pull/973/head
+
 hr:
   defaults:
     depth: $DEPTH_MERGE
@@ -68,7 +78,6 @@ hr:
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-    - origin refs/pull/1004/head
     - origin refs/pull/1009/head
 
 field-service:
