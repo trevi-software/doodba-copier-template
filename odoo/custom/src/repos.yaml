@@ -10,11 +10,9 @@
     odoo: https://github.com/odoo/odoo.git
     openupgrade: https://github.com/OCA/OpenUpgrade.git
     trevi: https://github.com/trevi-software/OCB.git
-  target: ocb $ODOO_VERSION
+  target: trevi $ODOO_VERSION
   merges:
-    - ocb $ODOO_VERSION
-    - trevi refs/pull/13/head
-    - trevi refs/pull/14/head
+    - trevi $ODOO_VERSION
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
 
