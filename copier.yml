@@ -424,7 +424,7 @@ smtp_relay_password:
 smtp_relay_version:
   type: str
   when: *has_smtp
-  default: "9.0"
+  default: "10"
   help: >-
     Doodba uses docker-mailserver as the local mail relay.
 
@@ -469,7 +469,7 @@ backup_dst:
     choice backup engine; read http://duplicity.nongnu.org/vers8/duplicity.1.html#sect7
     for those URL formats).
 
-    If you don't want bakcups, leave this empty.
+    If you don't want backups, leave this empty.
 
     Where should the backups be stored?
 
