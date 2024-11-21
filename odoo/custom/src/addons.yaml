@@ -1,0 +1,112 @@
+account-invoicing:
+  - account_portal_hide_invoice
+akretion-usability:
+  - base_usability
+  - base_partner_one2many_phone
+  - partner_tree_default_base
+  - partner_tree_default_contacts
+  - product_usability
+  - sale_usability
+bank-payment:
+  - account_payment_mode
+  - account_payment_partner
+contract:
+  - agreement
+  - agreement_legal
+  - agreement_sale
+  - agreement_serviceprofile
+  - contract
+  - contract_payment_mode
+  - contract_sale
+crm:
+  - crm_claim
+  - crm_lead_code
+  - crm_phonecall
+hr:
+  - hr_contract_reference
+  - hr_employee_id
+  - hr_medical_examination
+field-service:
+  - base_territory
+  - fieldservice
+  - fieldservice_account
+  - fieldservice_account_analytic
+  - fieldservice_activity
+  - fieldservice_agreement
+  - fieldservice_isp_flow
+  - fieldservice_maintenance
+  - fieldservice_project
+  - fieldservice_purchase
+  - fieldservice_recurring
+  - fieldservice_sale
+  - fieldservice_skill
+  - fieldservice_stage_server_action
+  - fieldservice_stage_validation
+  - fieldservice_timeline
+helpdesk:
+  - helpdesk_mgmt
+  - helpdesk_mgmt_project
+  - helpdesk_type
+partner-contact:
+  - partner_address_version
+  - partner_vat_unique
+odoo-profiles:
+  - profile_base
+  - profile_sale_crm
+  - profile_service_helpdesk
+osi-addons:
+  - agreement_helpdesk
+  - fieldservice_agreement
+  - fieldservice_agreement_helpdesk
+  - helpdesk_fieldservice
+project:
+  - project_task_dependency
+  - project_task_material
+  - project_template
+server-backend:
+  - base_user_role
+server-brand:
+  - disable_odoo_online
+  - remove_odoo_enterprise
+server-tools:
+  - auditlog
+  - base_view_inheritance_extension
+  - module_change_auto_install
+  - slow_statement_logger
+server-ux:
+  - base_optional_quick_create
+  - base_revision
+  - base_technical_features
+  - base_tier_validation
+  - base_tier_validation_formula
+  - base_tier_validation_forward
+  - base_tier_validation_server_action
+  - date_range
+  - mass_editing
+  - multi_step_wizard
+social:
+  - mail_tracking
+trevi-misc:
+  - project_portal_hide
+  - purchase_portal_hide
+  - sale_portal_hide
+web:
+  - web_advanced_search
+  - web_dialog_size
+  - web_drop_target
+  - web_group_expand
+  - web_listview_range_select
+  - web_refresher
+  - web_responsive
+  - web_timeline
+website:
+  - website_odoo_debranding
+---
+# Enable demo ribbon only for devel and test environments
+ONLY:
+  PGDATABASE: # This environment variable must exist and be in the list
+    - devel
+    - test
+web:
+  - web_environment_ribbon
+
